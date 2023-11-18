@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Homes</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Project</a></li>
+
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/logo.svg" alt="">
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Skills</a>
+                            <a href="#blog">Project</a>
+                            
+                        </div>
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/wahab pic cv.jpg" alt="">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Abdul Wahab Tariq</h6>
+                        <h1>I’m a Software <span>Engineer</span></h1>
+                        <p>I'm Full Stack Web Developer . I have a strong educational background in BS Computer Science and always aspire to be an efficient problem solver. I'm
+                            always enthusiastic to learn new technologies and solve challenges in an efficient manner.
+                            </p>
+                        <div>
+                            <a href="Abdul Wahab.pdf" download="Abdul Wahab.pdf">
+                                <button class="btn btn-secondary">Download CV</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/a.wahab tariq.jpg" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3 >Hello! i’m Abdul Wahab Tariq.</h3>
+                    <p>I'm Full Stack Web Developer .I have a strong educational background in BS Computer Science and always aspire to be an efficient problem solver. I'm
+                        always enthusiastic to learn new technologies and solve challenges in an efficient manner.My journey as a Full Stack Developer has equipped me with a diverse skill set, encompassing both front-end and back-end technologies, 
+                        allowing me to create seamless and user-friendly web applications.My educational background, coupled with hands-on experience in various development projects, has provided me with a solid foundation in computer science principles and best practices. I approach each project with
+                        a meticulous attention to detail and a commitment to producing high-quality code.</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>Our Skills</span></h1>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="skills">  
+                            <li>
+                                <h3>HTML</h3><span class="bar"><span class="html"></span></span> <!-- skill bar 1 -->
+                            </li>
+                        
+                            <li>
+                                <h3>CSS</h3><span class="bar"><span class="css"></span></span><!-- skill bar 2 -->
+                            </li>
+                        
+                            <li>
+                                <h3>JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span><!-- skill bar 3 -->
+                            </li>
+                        
+                            <li>
+                                <h3>JQUERY</h3><span class="bar"><span class="jquery"></span></span><!-- skill bar 4 -->
+                            </li>
+                            <li>
+                                <h3>PHP</h3><span class="bar"><span class="php"></span></span><!-- skill bar 5 -->
+                            </li>
+                            <li>
+                                <h3>JAVA</h3><span class="bar"><span class="java"></span></span><!-- skill bar 6 -->
+                            </li>
+                            <li>
+                                <h3>MY SQL</h3><span class="bar"><span class="sql"></span></span><!-- skill bar 6 -->
+                            </li>
+                        </div>
+                 
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="freelancer">
+            <h1>I Am Available For Freelancer.</h1>
+            <p>We provide high standar clean website for your business solutions</p>
+            <a href="Abdul Wahab.pdf" download="Abdul Wahab.pdf">
+                <button class="btn btn-primary">Download CV</button>
+            </a>
+        </section>
+        
+        <section id="blog" class="blog">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Project</h1>
+                <p>We provide high standar clean website for your business solutions</p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/canvas.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Air Canvas Writing System (FYP)</h1>
+                            </a>
+                            <span></span>
+                            <p>Developed an application allowing users to write on the screen using finger gestures captured by the camera.
+                                Utilized OpenCV for camera input and image processing to detect finger gestures.
+                                Employed Python as the primary programming language to build the application.
+                                PostgreSQL as the database system to store user data or application-related information.
+                                Integrated Google API to convert the text written on the screen into speech, providing valuable assistance to individuals</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/images1.jpg" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Restaurant Management System</h1>
+                            </a>
+                            <p>Utilized MySQL as the database system to store and manage restaurant data, including menu items, prices, and
+                                customer information.
+                                Implemented a user-friendly interface with HTML and CSS to create an attractive and responsive web application.
+                                Designed a ”Show Menu” feature that allows users to view the restaurant’s menu items, along with descriptions and
+                                prices..
+                                Incorporated JavaScript to enable interactive functionality within the system, enhancing the user experience.
+                                Created a ”
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/laravel5.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                             
+                                <h1>Laravel CRUD Product Management</h1>
+                            </a>
+                        
+                            <p>Developed a Laravel-based web application for seamless product information management, encompassing CRUD
+                                functionality for creating, reading, updating, and deleting product records.
+                                Utilized MySQL as the database system to store and manage product information, including product names,
+                                descriptions, prices, and quantities.
+                                Developed a ”Show Product List” feature that enables users to view a comprehensive list of all available products</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>Us</span></h1>
+                <br>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <i class="fa fa-phone" style="font-size:40px"></i>
+                        <h1>Call Us On</h1>
+                        <h6>+92 3320147841</h6>
+                    </div>
+                    <div class="card">
+                        <i class="fa fa-envelope" style="font-size:40px"></i>
+                        <h1>Email Us At</h1>
+                        <h6>abdulwahabtariq00.com</h6>
+                    </div>
+                    <div class="card">
+                        <i class="fa fa-address-card-o" style="font-size:40px"></i>
+                        <h1>Visit Office</h1>
+                        <h6>101 office no Defence Raya DHA Phase 6</h6>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <img class="footer-logo" src="./images/logo-2.svg" alt="">
+            <div class="footer-socials">
+                <a href="#"><img src="./images/website.svg" alt=""></a>
+                <a href="https://www.facebook.com/awais.wahab.50"><i class="fa fa-facebook-f" style="font-size:24px"></i></a>
+                <a href="https://www.linkedin.com/in/abdul-wahab-tariq-712828163"> <i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+                <a href="https://instagram.com/a.wahab_creations?utm_source=qr&igshid=ZTM4ZDRiNzUwMw=="> <i class="fa fa-instagram" style="font-size:24px"></i></a>
+            </div>
+            <div class="copyright">
+                Copyright 2020 © Abdul Wahab
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
